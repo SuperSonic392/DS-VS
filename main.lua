@@ -138,9 +138,9 @@ function before_mario_update(m)
         end
     end
 
-    if(m.action == ACT_FORWARD_GROUND_KB) then
-        set_mario_action(m, ACT_FORWARD_GROUND_KB_STUN, 0)
-    end
+    --if(m.action == ACT_FORWARD_GROUND_KB) then
+    --    set_mario_action(m, ACT_FORWARD_GROUND_KB_STUN, 0)
+    --end
 end
 
 ---@param m MarioState
